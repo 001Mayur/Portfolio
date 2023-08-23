@@ -12244,21 +12244,63 @@ pre .code {
   display: inline-block; /* Change to inline-block to make the span fit its contents */
 }
 
+/* Your existing CSS styles */
+
+.wave {
+  animation: shakeAndResize 3s forwards; /* Shake and resize animation */
+  transform-origin: 70% 70%; /* Pivot around the bottom-left palm */
+  display: inline-block;
+  font-size: 60px; /* Set initial font size */
+}
+
+@keyframes shakeAndResize {
+  0% { transform: rotate( 0.0deg) scale(1); }
+ 10% { transform: rotate(14.0deg) scale(1.2); } /* You can adjust the scale values for the initial enlargement */
+ 20% { transform: rotate(-8.0deg) scale(1.2); }
+ 30% { transform: rotate(14.0deg) scale(1.2); }
+ 40% { transform: rotate(-4.0deg) scale(1.2); }
+ 50% { transform: rotate(10.0deg) scale(1.2); }
+ 60% { transform: rotate( 0.0deg) scale(1.2); }
+100% { transform: rotate( 0.0deg) scale(1); } /* Back to normal size */
+}
+
+/* Shrink animation for the emoji after shaking */
+.wave.shrink {
+  animation: shrinkEmoji 0.5s ease-in-out forwards;
+}
+
+
+/* Fade-in animation for the "Mayur Phatangare" text */
+.animated-name {
+    display: inline-block;
+    animation: fadeInUp 1.5s ease-in-out 0.5s forwards;
+    opacity: 0;
+}
+
+@keyframes fadeInUp {
+    0% {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+
+
+
+
+
+
 .hello-gif {
   width: 200px; /* Set the desired width for the GIF */
   height: auto; /* Let height adjust proportionally */
   vertical-align: bottom; /* Align the GIF vertically with the text */
+  
 }
 
-/* Define the animation */
-@keyframes fadeIn {
-  from {
-      opacity: 0;
-  }
-  to {
-      opacity: 1;
-  }
-}
 
 /* Apply the animation to the .down span */
 .header .header-content .header-title .down {
