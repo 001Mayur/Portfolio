@@ -12,6 +12,29 @@
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 */
 
+// home button
+
+document.addEventListener("DOMContentLoaded", function () {
+  const homeButton = document.getElementById("homeButton");
+
+  homeButton.addEventListener("click", function (event) {
+      event.preventDefault(); // Prevent the default link behavior
+      location.reload(); // Reload the page
+  });
+});
+
+
+// home hii and emojis
+document.addEventListener("DOMContentLoaded", function () {
+  const waveElement = document.querySelector(".wave");
+
+  waveElement.addEventListener("animationend", function () {
+      
+  });
+});
+
+
+
 // smooth scroll
 $(document).ready(function(){
     $(".navbar .nav-link").on('click', function(event) {
