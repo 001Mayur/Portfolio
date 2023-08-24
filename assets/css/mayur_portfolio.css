@@ -83,6 +83,8 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
+  margin-right: -10vh;
+  /* scroll-margin-right: 0vh; */
   font-family: "Open Sans", sans-serif;
   font-size: 1rem;
   font-weight: 400;
@@ -380,13 +382,13 @@ summary {
   cursor: pointer;
 }
 
-template {
+/* template {
   display: none;
-}
+} */
 
-[hidden] {
+/* [hidden] {
   display: none !important;
-}
+} */
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
@@ -2391,7 +2393,7 @@ textarea.form-control {
 }
 
 .valid-feedback {
-  display: none;
+  /* display: none; */
   width: 100%;
   margin-top: 0.25rem;
   font-size: 80%;
@@ -2402,7 +2404,7 @@ textarea.form-control {
   position: absolute;
   top: 100%;
   z-index: 5;
-  display: none;
+  /* display: none; */
   max-width: 100%;
   padding: 0.25rem 0.5rem;
   margin-top: .1rem;
@@ -2514,7 +2516,7 @@ textarea.form-control {
 }
 
 .invalid-feedback {
-  display: none;
+  /* display: none; */
   width: 100%;
   margin-top: 0.25rem;
   font-size: 80%;
@@ -2525,7 +2527,7 @@ textarea.form-control {
   position: absolute;
   top: 100%;
   z-index: 5;
-  display: none;
+  /* display: none; */
   max-width: 100%;
   padding: 0.25rem 0.5rem;
   margin-top: .1rem;
@@ -3384,9 +3386,9 @@ input[type="button"].btn-block {
   opacity: 0;
 }
 
-.collapse:not(.show) {
-  display: none;
-}
+/* .collapse:not(.show) {
+   display: none; 
+} */
 
 .collapsing {
   position: relative;
@@ -3434,7 +3436,7 @@ input[type="button"].btn-block {
   top: 100%;
   left: 0;
   z-index: 1000;
-  display: none;
+  /* display: none; */;
   float: left;
   min-width: 10rem;
   padding: 0.5rem 0;
@@ -3567,9 +3569,9 @@ input[type="button"].btn-block {
   content: "";
 }
 
-.dropleft .dropdown-toggle::after {
+/* .dropleft .dropdown-toggle::after {
   display: none;
-}
+} */
 
 .dropleft .dropdown-toggle::before {
   display: inline-block;
@@ -4205,9 +4207,9 @@ input[type="button"].btn-block {
   background-color: #e9ecef;
 }
 
-.custom-select::-ms-expand {
+/* .custom-select::-ms-expand {
   display: none;
-}
+} */
 
 .custom-select-sm {
   height: calc(1.5em + 0.5rem + 2px);
@@ -4564,10 +4566,10 @@ input[type="button"].btn-block {
           flex-grow: 1;
   text-align: center;
 }
-
+/* 
 .tab-content > .tab-pane {
   display: none;
-}
+} */
 
 .tab-content > .active {
   display: block;
@@ -4743,9 +4745,9 @@ input[type="button"].btn-block {
         -ms-flex-preferred-size: auto;
             flex-basis: auto;
   }
-  .navbar-expand-sm .navbar-toggler {
+  /* .navbar-expand-sm .navbar-toggler {
     display: none;
-  }
+  } */
 }
 
 @media (max-width: 767.98px) {
@@ -4797,9 +4799,9 @@ input[type="button"].btn-block {
         -ms-flex-preferred-size: auto;
             flex-basis: auto;
   }
-  .navbar-expand-md .navbar-toggler {
+  /* .navbar-expand-md .navbar-toggler {
     display: none;
-  }
+  } */
 }
 
 @media (max-width: 991.98px) {
@@ -4851,9 +4853,9 @@ input[type="button"].btn-block {
         -ms-flex-preferred-size: auto;
             flex-basis: auto;
   }
-  .navbar-expand-lg .navbar-toggler {
-    display: none;
-  }
+  /* .navbar-expand-lg .navbar-toggler {
+    display: none; 
+  } */
 }
 
 @media (max-width: 1199.98px) {
@@ -4905,9 +4907,9 @@ input[type="button"].btn-block {
         -ms-flex-preferred-size: auto;
             flex-basis: auto;
   }
-  .navbar-expand-xl .navbar-toggler {
+  /* .navbar-expand-xl .navbar-toggler {
     display: none;
-  }
+  } */
 }
 
 .navbar-expand {
@@ -4962,9 +4964,9 @@ input[type="button"].btn-block {
           flex-basis: auto;
 }
 
-.navbar-expand .navbar-toggler {
+/* .navbar-expand .navbar-toggler {
   display: none;
-}
+} */
 
 .navbar-light .navbar-brand {
   color: rgba(0, 0, 0, 0.9);
@@ -5500,9 +5502,9 @@ a.badge:hover, a.badge:focus {
   text-decoration: none;
 }
 
-.badge:empty {
+/* .badge:empty {
   display: none;
-}
+} */
 
 .btn .badge {
   position: relative;
@@ -6286,9 +6288,9 @@ a.close.disabled {
   opacity: 1;
 }
 
-.toast.hide {
+/* .toast.hide {
   display: none;
-}
+} */
 
 .toast-header {
   display: -webkit-box;
@@ -6324,7 +6326,7 @@ a.close.disabled {
   top: 0;
   left: 0;
   z-index: 1050;
-  display: none;
+  /* display: none; */;
   width: 100%;
   height: 100%;
   overflow: hidden;
@@ -6833,9 +6835,9 @@ a.close.disabled {
   border-top-right-radius: calc(0.3rem - 1px);
 }
 
-.popover-header:empty {
+/* .popover-header:empty {
   display: none;
-}
+} */
 
 .popover-body {
   padding: 0.5rem 0.75rem;
@@ -6865,7 +6867,7 @@ a.close.disabled {
 
 .carousel-item {
   position: relative;
-  display: none;
+  /* display: none; */;
   float: left;
   width: 100%;
   margin-right: -100%;
@@ -7374,9 +7376,9 @@ button.bg-dark:focus {
   content: "";
 }
 
-.d-none {
-  display: none !important;
-}
+/* .d-none {
+  display: none  !important;
+} */
 
 .d-inline {
   display: inline !important;
@@ -7417,9 +7419,9 @@ button.bg-dark:focus {
 }
 
 @media (min-width: 576px) {
-  .d-sm-none {
+  /* .d-sm-none {
     display: none !important;
-  }
+  } */
   .d-sm-inline {
     display: inline !important;
   }
@@ -7453,9 +7455,9 @@ button.bg-dark:focus {
 }
 
 @media (min-width: 768px) {
-  .d-md-none {
+  /* .d-md-none {
     display: none !important;
-  }
+  } */
   .d-md-inline {
     display: inline !important;
   }
@@ -7489,9 +7491,9 @@ button.bg-dark:focus {
 }
 
 @media (min-width: 992px) {
-  .d-lg-none {
+  /* .d-lg-none {
     display: none !important;
-  }
+  } */
   .d-lg-inline {
     display: inline !important;
   }
@@ -7525,9 +7527,9 @@ button.bg-dark:focus {
 }
 
 @media (min-width: 1200px) {
-  .d-xl-none {
+  /* .d-xl-none {
     display: none !important;
-  }
+  } */
   .d-xl-inline {
     display: inline !important;
   }
@@ -7561,9 +7563,9 @@ button.bg-dark:focus {
 }
 
 @media print {
-  .d-print-none {
+  /* .d-print-none {
     display: none !important;
-  }
+  } */
   .d-print-inline {
     display: inline !important;
   }
@@ -10951,9 +10953,9 @@ a.text-dark:hover, a.text-dark:focus {
   .container {
     min-width: 992px !important;
   }
-  .navbar {
+  /* .navbar {
     display: none;
-  }
+  } */
   .badge {
     border: 1px solid #000;
   }
@@ -12089,20 +12091,21 @@ pre .code {
 /*==================== FOOTER ====================*/
 /* Updated CSS for Footer */
 .footer {
-  padding-top: 20px;
   text-align: center;
 }
 
 .footer__container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  display: inline-flex;
+  justify-content: space-around;
+  align-items: flex-start;
   row-gap: 1.5rem;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
 
 .footer__bg {
   background-color: var(--primary);
-  padding: 60px 0;
+  padding: 5vh;
   position: relative;
 }
 
@@ -12143,7 +12146,7 @@ pre .code {
 .scrollup-box {
   position: absolute;
   bottom: 20px;
-  right: 20px;
+  right: 150px;
   background-color:white;
   width: 30px;
   height: 30px;
@@ -12226,7 +12229,7 @@ pre .code {
 }
 
 .header .header-content {
-  margin-top: 10px;
+  margin-top: 100px;
   -webkit-box-flex: 1;
   -webkit-flex-grow: 1;
       -ms-flex-positive: 1;
@@ -12237,57 +12240,12 @@ pre .code {
 
 .header .header-content .header-title .up {
   font-size: calc(30px + (60 - 30) * ((100vw - 300px) / (1300 - 300)));
-  font-weight: 500;
+  /* font-weight: 500; */
   color: #ececf6;
   margin-bottom: 20px;
   position: relative;
   display: inline-block; /* Change to inline-block to make the span fit its contents */
 }
-
-/* Your existing CSS styles */
-
-.wave {
-  animation: shakeAndResize 3s forwards; /* Shake and resize animation */
-  transform-origin: 70% 70%; /* Pivot around the bottom-left palm */
-  display: inline-block;
-  font-size: 60px; /* Set initial font size */
-}
-
-@keyframes shakeAndResize {
-  0% { transform: rotate( 0.0deg) scale(1); }
- 10% { transform: rotate(14.0deg) scale(1.2); } /* You can adjust the scale values for the initial enlargement */
- 20% { transform: rotate(-8.0deg) scale(1.2); }
- 30% { transform: rotate(14.0deg) scale(1.2); }
- 40% { transform: rotate(-4.0deg) scale(1.2); }
- 50% { transform: rotate(10.0deg) scale(1.2); }
- 60% { transform: rotate( 0.0deg) scale(1.2); }
-100% { transform: rotate( 0.0deg) scale(1); } /* Back to normal size */
-}
-
-/* Shrink animation for the emoji after shaking */
-.wave.shrink {
-  animation: shrinkEmoji 0.5s ease-in-out forwards;
-}
-
-
-/* Fade-in animation for the "Mayur Phatangare" text */
-.animated-name {
-    display: inline-block;
-    animation: fadeInUp 1.5s ease-in-out 0.5s forwards;
-    opacity: 0;
-}
-
-@keyframes fadeInUp {
-    0% {
-        transform: translateY(50px);
-        opacity: 0;
-    }
-    100% {
-        transform: translateY(0);
-        opacity: 1;
-    }
-}
-
 
 
 
@@ -12296,17 +12254,17 @@ pre .code {
 
 .hello-gif {
   width: 200px; /* Set the desired width for the GIF */
-  height: auto; /* Let height adjust proportionally */
+  height: auto; /*Let height adjust proportionally*/
   vertical-align: bottom; /* Align the GIF vertically with the text */
-  
+    
 }
 
 
 /* Apply the animation to the .down span */
 .header .header-content .header-title .down {
-  margin-bottom: 0px;
+  margin-bottom: 20px;
   position: relative;
-  display: block;
+  /* display: block; */
   white-space: nowrap;
   animation: fadeIn 1.5s ease-in-out; /* Apply the fadeIn animation */
 }
@@ -12375,6 +12333,57 @@ pre .code {
     padding-left: calc(100% / 5) !important;
   }
 }
+
+
+/* Your existing CSS styles */
+
+.wave {
+  animation: shakeAndResize 3s forwards; /* Shake and resize animation */
+  transform-origin: 70% 70%; /* Pivot around the bottom-left palm */
+  display: inline-block;
+  font-size: 60px; /* Set initial font size */
+}
+
+@keyframes shakeAndResize {
+  0% { transform: rotate( 0.0deg) scale(1); }
+ 10% { transform: rotate(14.0deg) scale(1.2); } /* You can adjust the scale values for the initial enlargement */
+ 20% { transform: rotate(-8.0deg) scale(1.2); }
+ 30% { transform: rotate(14.0deg) scale(1.2); }
+ 40% { transform: rotate(-4.0deg) scale(1.2); }
+ 50% { transform: rotate(10.0deg) scale(1.2); }
+ 60% { transform: rotate( 0.0deg) scale(1.2); }
+100% { transform: rotate( 0.0deg) scale(1); } /* Back to normal size */
+}
+
+/* Shrink animation for the emoji after shaking */
+.wave.shrink {
+  animation: shrinkEmoji 0.5s ease-in-out forwards;
+}
+
+
+/* Fade-in animation for the "Mayur Phatangare" text */
+.animated-name {
+    display: inline-block;
+    animation: fadeInUp 1.5s ease-in-out 0.5s forwards;
+    opacity: 0;
+}
+
+@keyframes fadeInUp {
+    0% {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+
+
+
+
+
 
 .about {
   display: -webkit-box;
@@ -12696,6 +12705,9 @@ pre .code {
 .skills__rs {
   width: 85%;
 }
+.skills__py {
+  width: 85%;
+}
 
 .skills__lead {
   width: 95%;
@@ -12948,7 +12960,7 @@ ul li .descr::before {
 .experience__content {
   text-align: center;
   /* margin-top: 2rem; */
-  display: none;
+  /* display: none; */
   /* max-width: 1000px; Set your desired maximum width */
   margin: 0 auto; /* Center the content horizontally */
   padding: 1px; /* Add padding for spacing */
