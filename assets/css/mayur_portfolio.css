@@ -12253,7 +12253,7 @@ pre .code {
 
 
 .hello-gif {
-  width: 200px; /* Set the desired width for the GIF */
+  width: 210px; /* Set the desired width for the GIF */
   height: auto; /*Let height adjust proportionally*/
   vertical-align: bottom; /* Align the GIF vertically with the text */
     
