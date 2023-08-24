@@ -12329,9 +12329,9 @@ pre .code {
   .header {
     background-size: cover;
   }
-  .header-content {
+/*   .header-content {
     padding-left: calc(100% / 5) !important;
-  }
+  } */
 }
 
 
