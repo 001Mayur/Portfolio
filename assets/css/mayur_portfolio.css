@@ -83,7 +83,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  /* margin-right: -10vh; */
+  margin-right: -10vh;
   /* scroll-margin-right: 0vh; */
   font-family: "Open Sans", sans-serif;
   font-size: 1rem;
