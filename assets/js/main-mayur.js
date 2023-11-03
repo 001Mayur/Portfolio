@@ -24,14 +24,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
-// home hii and emojis
-document.addEventListener("DOMContentLoaded", function () {
-  const waveElement = document.querySelector(".wave");
 
-  waveElement.addEventListener("animationend", function () {
-      
-  });
-});
 
 
 
@@ -131,3 +124,22 @@ workTab.addEventListener('click', () => {
     workTab.classList.add('active');
 });
 
+document.querySelector('.bg-circle').addEventListener('mouseenter', function() {
+  document.querySelector('.bg-circle').classList.add('hovered');
+  document.querySelector('.bot-image').classList.add('hovered');
+});
+
+document.querySelector('.bot-image').addEventListener('mouseenter', function() {
+  document.querySelector('.bg-circle').classList.add('hovered');
+  document.querySelector('.bot-image').classList.add('hovered');
+});
+
+document.querySelector('.bg-circle').addEventListener('mouseleave', function() {
+  document.querySelector('.bg-circle').classList.remove('hovered');
+  document.querySelector('.bot-image').classList.remove('hovered');
+});
+
+document.querySelector('.bot-image').addEventListener('mouseleave', function() {
+  document.querySelector('.bg-circle').classList.remove('hovered');
+  document.querySelector('.bot-image').classList.remove('hovered');
+});
