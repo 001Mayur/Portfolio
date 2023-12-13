@@ -1,5 +1,9 @@
 
 my_portfolio
-![Alt text](assets/imgs/homepage.png)
-![Alt text](assets/imgs/about.png)
-![Alt text](assets/imgs/project.png)
+![home](assets/imgs/homepage.png)
+![about](assets/imgs/about.png)
+![projects](assets/imgs/project.png)
+![skills](assets/imgs/project.png)
+![experience](assets/imgs/project.png)
+![services](assets/imgs/project.png)
+![contact](assets/imgs/project.png)
